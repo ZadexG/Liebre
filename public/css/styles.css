@@ -1,0 +1,437 @@
+*{
+  margin: 0px;
+  padding: 0px;    
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #ebebeb;
+}
+
+h3{
+  font-size: 24px;
+  color:#666
+}
+
+p{
+  font-size: 12px;
+  width: 50%;
+}
+
+div.top-header{
+  display: flex;
+  padding: 5%;
+}
+header div.top-header p {
+  text-align: center;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+header{
+  background-color: #EAC926;
+}
+
+header div.logo,
+header .form, header p{
+  width: 50%;
+}
+
+header div.logo{
+  padding: 10px;
+}
+header .form {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  font-size: 11px;
+  text-align: center;
+  justify-content: center;
+  width: 50%;}
+
+header nav{
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+header ul li{
+  list-style-type: none;
+  margin:10px;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+header .form .input{
+  background-color: #FFF;
+  border: 1px solid #000;
+  outline: none;
+  color: #666;
+  padding: 2px;
+}
+
+header .form .submit {
+  background-color: #FFF;
+  border: 1px solid #000;
+  color: #666;
+  width: 17px;
+  margin-left: 10px;
+}
+
+div.burger-menu{
+  text-align: center;
+}
+
+div.burger-menu i{
+  background-color: #0044AA;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 20px;
+  height: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  width: 40px;
+}
+
+div.last-visit,
+div.offers{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price{
+  font-size: 18px;
+  width: 30%;
+}
+body header ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 3%;
+}
+.discount{
+  width: 70%;
+}
+
+.discount,
+.description{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h4,
+.description{
+  color: #666;
+}
+
+h4,.description{
+  margin-top: 20px;
+}
+
+section.banner img{
+  width: 100%;
+}
+
+main{
+  width: 90%;
+  margin: 0 auto;
+}
+
+main section article{
+  background-color: #fff;    
+  margin: 10px 0px;
+}
+
+main section article img{
+  width: 100%;
+}
+
+main section article i,
+.discount{
+  color: #39b54a;
+}
+
+.cam{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.description{
+  position: relative;
+}
+main section h3{
+  margin: 20px 0px;
+}
+
+article div.main-article{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  padding: 15px;
+}
+
+
+@media (min-width: 361px){
+  .general-foot{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+  
+  .general{
+    background-color: #c7c8ca;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 58px;
+    padding-bottom: 74px;
+    width: 100%;
+  }
+  
+  .field {
+    margin: 18px;
+    width: 50vh;
+    padding-top: 12px;
+    border-radius: 11px;
+    border: none;
+    padding-bottom: 14px;
+  }
+  
+  .button {
+    color: white;
+    width: 82%;
+    background: blue;
+    border: none;
+    padding: 16px;
+    margin-top: 26px;
+    margin-left: 9%;
+    border-radius: 10px;
+  }
+  
+  .intereses {
+    PADDING-LEFT: 12px;
+    MARGIN: 15px 0px;
+    WIDTH: 100%;
+  }
+  div.top-header {
+    display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header div.top-header p {
+    text-align: center;
+    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+ 
+  main section article .description{
+      display: block;
+  }
+  body header nav,.box-subs{
+    display: none;
+   }
+
+  main section div.products{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  
+  main section div.products article{
+      width: 45%;
+  }
+
+  .price,
+  .discount{
+      width: 50%;
+  }
+}
+
+@media (min-width: 769px){
+  footer .icons-foot{
+    color:#5d87d0;
+    transition: all 450ms;
+  }
+  
+  
+  footer .icons-foot:hover{
+    color:#1c3258
+  }
+
+  footer .bloques-footer{
+    width: 50%;
+  }
+  .general-foot{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  display: flex;}
+  
+  .general{
+    background-color: #c7c8ca;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 58px;
+    padding-bottom: 74px;
+    width: 100%;
+  }
+  
+  .field {
+    margin: 18px;
+    width: 50vh;
+    padding-top: 12px;
+    border-radius: 11px;
+    border: none;
+    padding-bottom: 14px;
+  }
+  
+  .button {
+    color: white;
+    width: 82%;
+    background: blue;
+    border: none;
+    padding: 16px;
+    margin-top: 26px;
+    margin-left: 9%;
+    border-radius: 10px;
+  }
+  
+  .intereses {
+    PADDING-LEFT: 12px;
+    MARGIN: 15px 0px;
+    WIDTH: 100%;
+  }
+  div.top-header {
+    display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header div.top-header p {
+    text-align: center;
+    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  main section div.products article{
+      width: 22%;
+  }
+  div.burger-menu{
+    display: none;
+}
+header div.top-header p {
+  text-align: center;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+  p{
+    width: 50%;
+  }
+  header .top-header{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  body header nav,.box-subs{
+    display: flex;
+    justify-content: space-between}
+
+  .description {
+      opacity: 0%;
+      transition: all 1000ms
+    }
+    
+    article:hover .description {
+      opacity: 100%
+    }
+    article{
+      box-shadow: 0px 0px 0px rgb(100, 100, 100);
+      opacity: 60%;
+      transition: all 450ms
+    }
+    
+    article:hover{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      opacity: 100%
+    }
+    
+    .cam{
+      transform:rotate(0%);
+      transition: all 450ms;
+    }
+    
+    article:hover .cam{
+      transform:rotate(-90deg);
+    }
+}
+
+body .icons-foot{
+  margin-bottom: 10;
+  font-size: 2em;
+}
+.foot-padding{
+
+  padding: 0px 40px;
+  margin: auto;
+}
+
+
+.products,#Enviar{
+  transition: all 450ms;
+}
+
+
+.button{
+  background: #737da7;
+ transition: all 600ms;
+}
+.button:hover{
+  background:#0022AA
+}
+
+
+main section nav .espacio{
+  margin:10px
+}
+
+main section nav h6{
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5px;
+}
+
+
+
+body .copyright{
+  font-size: small;
+  color:#666
+}
+
+footer .icons-foot{
+  color:#5d87d0;}
