@@ -5,5 +5,17 @@
   "devDependencies": {
     "3-": "^0.0.1",
     "nodemon": "^3.0.1"
-  }
+  },
+  "name": "mercadolievre",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
