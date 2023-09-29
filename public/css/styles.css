@@ -69,12 +69,13 @@ header ul li a{
 
 }
 
-header .form .input{
+header .form .input {
   background-color: #FFF;
   border: 1px solid #000;
   outline: none;
   color: #666;
   padding: 2px;
+  margin-left: 5px;
 }
 
 header .form .submit {
