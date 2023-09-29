@@ -82,10 +82,9 @@ header .form .submit {
   background-color: #FFF;
   border: 1px solid #000;
   color: #666;
-  width: 17px;
-  margin-left: 10px;
+  width: 15px;
+  margin-left: 2px;
 }
-
 div.burger-menu{
   text-align: center;
 }
