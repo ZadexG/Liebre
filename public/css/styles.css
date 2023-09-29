@@ -189,13 +189,29 @@ article div.main-article{
 
 
 @media (min-width: 361px){
+  header .form .input {
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 137px;
+  }
+  
+  header .form .submit {
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 15px;
+    margin-left: 2px;
+  }
   .general-foot{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;}
   
   .general{
-    background-color: #c7c8ca;
+    background-color: #cecece;
     display: flex;
     justify-content: space-around;
     padding-top: 58px;
@@ -289,7 +305,7 @@ article div.main-article{
   display: flex;}
   
   .general{
-    background-color: #c7c8ca;
+    background-color: #cecece;
     display: flex;
     justify-content: space-around;
     padding-top: 58px;
