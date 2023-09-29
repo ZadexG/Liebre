@@ -75,7 +75,7 @@ header .form .input {
   outline: none;
   color: #666;
   padding: 2px;
-  font-size: 12px;
+  width: 137px;
 }
 
 header .form .submit {
